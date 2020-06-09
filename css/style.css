@@ -1,0 +1,70 @@
+.header {
+    position: absolute;
+    z-index: 10px;
+
+}
+
+.navbar {
+    padding: 20px 0;
+}
+.navbar-brand {
+    font-weight: 800;
+    color: #262626;
+    font-size: 2em;
+    text-transform: uppercase;
+
+
+}
+.nav-item {
+    font-weight: 800;
+    text-transform: uppercase;
+    
+
+}
+.nav-item .nav-link {
+
+    color: #262626;
+    width: 15vh;
+    text-align: center;
+    padding: 10px 0;
+    margin: 3px 10px;
+    transition: ease 1.5s;
+    border-radius: 30px;
+}
+.nav-item .nav-link:hover,
+.nav-item.active .nav-link{
+background: #262626;
+color: #fff;
+}
+
+.banner{
+    position: relative;
+    background: #eee;;
+    height: 70vh;
+    background-image: url("../img/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px 0 200px;
+    background-size: cover;
+}
+.loginbtn {
+    padding: 10px;
+
+}
+.banner h2 {
+    font-weight: 1000;
+    font-size: 2.8em;
+    color: #262626;
+    padding: 0;
+    margin:0;
+
+}
+
+.banner p {
+    font-weight: 1000;
+    
+   
+    padding: 0;
+    margin:0;
+}
+
