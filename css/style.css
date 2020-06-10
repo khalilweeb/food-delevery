@@ -37,34 +37,34 @@ background: #262626;
 color: #fff;
 }
 
-.banner{
-    position: relative;
-    background: #eee;;
-    height: 70vh;
-    background-image: url("../img/bg2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 200px 0 200px;
-    background-size: cover;
-}
 .loginbtn {
     padding: 10px;
 
 }
-.banner h2 {
-    font-weight: 1000;
-    font-size: 2.8em;
-    color: #262626;
-    padding: 0;
-    margin:0;
+.carousel-item {
+    height: 60vh;
+    background: no-repeat center center scroll;
+    background-size:cover;
 
 }
-
-.banner p {
-    font-weight: 1000;
+.carousel-item  .carousel-caption {
+    bottom:45%;
+    background: rgba(12, 11, 11, 0.4);
     
-   
-    padding: 0;
-    margin:0;
+}
+
+
+.carousel-caption h5 {
+   color: #fff;
+   font-weight: 1000;
+   font-size: 2.5em;
+   left: 0;
+
+}
+.carousel-caption p {
+    color: #fff;
+}
+#chefs {
+    margin:50px 20px  0;
 }
 
