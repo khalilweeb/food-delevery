@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
 .header {
     position: absolute;
     z-index: 10px;
@@ -5,13 +14,18 @@
 }
 
 .navbar {
-    padding: 20px 0;
+    padding: 21px 0;
+    background: #fff;
 }
+ #navbarSupportedContent {
+     margin-right: 200px;
+ }
 .navbar-brand {
     font-weight: 800;
     color: #262626;
     font-size: 2em;
     text-transform: uppercase;
+    
 
 
 }
@@ -42,13 +56,16 @@ color: #fff;
 
 }
 .carousel-item {
-    height: 60vh;
-    background: no-repeat center center scroll;
-    background-size:cover;
+    max-height:60vh;
+    width: 100%;
+    background: no-repeat center center fixed;
+    background-size: cover;
+   
 
 }
+
 .carousel-item  .carousel-caption {
-    bottom:45%;
+    bottom: 42%;
     background: rgba(12, 11, 11, 0.4);
     
 }
@@ -58,13 +75,63 @@ color: #fff;
    color: #fff;
    font-weight: 1000;
    font-size: 2.5em;
-   left: 0;
+  
 
 }
-.carousel-caption p {
-    color: #fff;
-}
+
 #chefs {
     margin:50px 20px  0;
 }
 
+.img-fluid.rounded-circle {
+    height: 130px;
+}
+
+.names {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.card-body h5 {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.card {
+    margin-bottom: 70px ;
+}
+
+
+#team img {
+    margin-top: -80px;
+}
+
+#team i {
+    font-size: 26px;
+   
+}
+#team p {
+    font-weight: 500;
+}
+
+#team .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #262626;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover {
+    background: rgba(38, 38, 38, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #5a5a5a;
+}
+#team .card:hover h3 {
+    color: #84a9ac !important
+}
+
+#team .card:hover i {
+    color: #fff;
+} 
