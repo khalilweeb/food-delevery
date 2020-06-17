@@ -42,7 +42,7 @@ body {
     text-align: center;
     padding: 10px 0;
     margin: 3px 10px;
-    transition: ease 1.5s;
+    transition: ease 1.2s;
     border-radius: 30px;
 }
 .nav-item .nav-link:hover,
