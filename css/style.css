@@ -79,41 +79,45 @@ color: #fff;
 
 }
 
+#team {
+    height: 100vh;
+}
+
 #chefs {
     margin:50px 20px  0;
 }
 
-.img-fluid.rounded-circle {
+#team  .team .img-fluid.rounded-circle {
     height: 130px;
 }
 
-.names {
+#team .names {
     font-weight: 600;
     text-transform: capitalize;
 }
 
-.card-body h5 {
+#team .team  .card-body h5 {
     font-weight: 400;
     text-transform: capitalize;
 }
-.card {
-    margin-bottom: 70px ;
+#team .team  .card {
+    margin-bottom: 80px;
 }
 
 
-#team img {
+#team .team  img {
     margin-top: -80px;
 }
 
-#team i {
+#team .team  i {
     font-size: 26px;
    
 }
-#team p {
+#team .team  p {
     font-weight: 500;
 }
 
-#team .card {
+#team .team  .card {
     border-radius: 0;
     box-shadow: 5px 5px 15px #262626;
     transition: all 0.3s ease-in;
@@ -121,17 +125,32 @@ color: #fff;
     -moz-transition: all 0.3s ease-in;
 }
 
-#team .card:hover {
+#team .team  .card:hover {
     background: rgba(38, 38, 38, 0.8);
     color: #fff;
     border-radius: 5px;
     border: none;
     box-shadow: 5px 5px 10px #5a5a5a;
 }
-#team .card:hover h3 {
+#team .team  .card:hover h3 {
     color: #84a9ac !important
 }
 
-#team .card:hover i {
+#team .team  .card:hover i {
     color: #fff;
 } 
+
+
+
+.hello {
+    margin-bottom: 50px;
+    
+}
+.foodtitle {
+  
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
