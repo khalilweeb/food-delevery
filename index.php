@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-  <title>Hello, world!</title>
+  <title>fedet</title>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
 
             <form class="form-inline my-2 my-lg-0">
 
-              <button class="btn btn-dark loginbtn btn-lg" type="submit">Login</button>
+              <button class="btn btn-dark loginbtn btn-lg" type="submit">Login||signup</button>
             </form>
 
         </div>
