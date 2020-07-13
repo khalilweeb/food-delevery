@@ -9,7 +9,7 @@ $GLOBALS['config'] = array (
         'host' => 'localhost',
         'username' => 'root',
         'password' => 'root123',
-        'db' => 'try'
+        'db' => 'FOOD_PROJECT'
 
     ),
 

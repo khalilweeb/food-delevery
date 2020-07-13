@@ -2,10 +2,24 @@
 
 require 'core/init.php';
 
-$user = DB::getInstance()->query("SELECT username FROM users");
+$user = DB::getInstance()->update('users' , 4 ,array(
 
-if($user->error()) {
-    echo "ezriofrezoifo";
+    'username'  => 'kluas',
+
+
+
+));
+/* 
+if(!$user->count()) {
+    echo "NO user!";
 } else {
-    echo 'OK!';
-}
+    foreach($user->results() as $user) {
+
+        echo 'name : ' , $user->username , '<br>';
+        echo 'password : ' , $user->password , '<br>';
+        echo 'salt : ' , $user->salt , '<br>';
+
+        echo '<hr>';
+
+    }
+} */
